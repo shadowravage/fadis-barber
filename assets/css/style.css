@@ -946,6 +946,9 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+.pricing .pricing-box {
+  margin-bottom: 25px;
+}
 .pricing .box {
   padding: 20px;
   background: #f9f9f9;
@@ -953,6 +956,7 @@ section {
   border-radius: 8px;
   position: relative;
   overflow: hidden;
+  height: 100%;
 }
 
 .pricing .box h3 {
